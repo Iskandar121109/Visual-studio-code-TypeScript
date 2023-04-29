@@ -1,0 +1,48 @@
+.header {
+    width: 97.5vw;
+    background: #363a42;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.containerLogoTitle {
+    display: flex;
+    align-items: center;
+}
+.TbBrandVscode {
+    font-size: 2.2rem;
+    color: #3957db;
+    display: flex;  
+}
+
+.ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    color: #fff;
+}
+.ul li {
+    font-size: 1.2rem;
+}
+.title {
+    font-size: 1.3rem;
+    color: #fff;
+}
+.containerIconWindowClose {
+    display: flex;
+    gap: 30px;
+}
+.iconsWindow {
+    display: flex;
+    gap: 10px;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.close {
+    color: #fff;
+    font-size: 1.5rem;
+    display: flex;
+    gap: 10px;  
+}

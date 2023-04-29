@@ -1,0 +1,302 @@
+.containerLeftNavbar {
+    display: flex;
+    width: 25%;
+}
+
+.leftNavbar {
+    width: 70px;
+    height: 83vh;
+    background: #292b31;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.topIcons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-size: 2.2rem;
+    padding: 20px 0 5px 0;
+    color: #bab9b9;
+    cursor: pointer;
+}
+
+.bottomIcons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-size: 2.2rem;
+    color: #bab9b9;
+    cursor: pointer;
+}
+
+.active {
+    color: #fff;
+    border-left: 3px solid #fff;
+    padding: 12px;
+}
+
+.VscFiles,
+.VscSearch,
+.VscSourceControl,
+.VscDebugAlt,
+.VscExtensions,
+.VscAccount,
+.VscGear {
+    padding: 12px;
+}
+
+.VscFiles:hover {
+    color: #fff;
+
+}
+
+.VscSearch:hover {
+    color: #fff;
+}
+
+.VscSourceControl:hover {
+    color: #fff;
+}
+
+.VscDebugAlt:hover {
+    color: #fff;
+}
+
+.VscExtensions:hover {
+    color: #fff;
+}
+
+.VscAccount:hover {
+    color: #fff;
+}
+
+.VscGear:hover {
+    color: #fff;
+}
+
+/* Второй боковой панель */
+.explorer {
+    background: #222429;
+    color: #fff;
+    width: 100%;
+    height: 82vh;
+    padding: 10px 20px 10px 20px;
+}
+
+.titleExplorer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1rem;
+    align-items: center;
+}
+
+.VscEllipsisExplorer {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.taskExplorer {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.taskExplorer h4 {
+    margin: 15px 0 0 0;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.VscChevronRightExp {
+    font-size: 1.4rem;
+}
+
+.VscChevronBottom {
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.VscChevronBottom p {
+    margin: 0;
+}
+
+.taskOpenTask {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    gap: 3px;
+    position: relative;
+    left: 20px;
+}
+
+/* Иконки новый файл новая папка обнавление и т.д */
+.expOpenIcons {
+    font-size: 1.4rem;
+    display: flex;
+    gap: 8px;
+    cursor: pointer;
+}
+
+/* Контент */
+.content {
+    display: flex;
+    position: relative;
+}
+
+.contentEdit {
+    display: flex;
+    flex-direction: column;
+    width: 74%;
+    position: relative;
+}
+
+.contentEdit textarea {
+    padding: 10px 0 0 0;
+    width: 100%;
+    background: #16181b;
+    height: 84vh;
+    color: #fff;
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+}
+.contentLink {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2rem;
+}
+.contentEdit button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 150px;
+    height: 40px;
+    background: #fff;
+    border-radius: 5px;
+    border: 2px solid tan;
+    font-size: 1.4rem;
+    z-index: 5;
+}
+.titleContentDiv {
+    width: 74vw;
+    display: flex;
+    gap: 5px;
+    padding-left: 380px;
+}
+.titleLink {
+    width: 200px;
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.titleContent {
+    display: flex;
+    align-items: center;
+    width: 245px;
+    height: 50px;
+    background: #292b31;
+    left: 428px;
+    z-index: 10;
+    font-size: 1.5rem;
+    color: #bab9b9;
+    justify-content: space-around;
+}
+
+.VscChromeCloseTitle {
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
+
+/* Search компонент поиска */
+.search {
+    color: #fff;
+    width: 100%;
+}
+
+.title {
+    font-size: 1.2rem;
+}
+
+.searchTitle {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    padding: 5px 0;
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.searchInputs {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.searchInputs input {
+    width: 85%;
+    height: 40px;
+    background: #383a40;
+    outline: none;
+    font-size: 1.2rem;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+    margin-left: 15px;
+}
+
+.searchInputs .replace {
+    width: 70%;
+    align-self: flex-start;
+    margin-left: 15px;
+}
+.newFileInputNameAdd {
+    margin-top: 15px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.newFileInputNameAdd button {
+    height: 30px;
+}
+.inputName {
+    outline: none;
+    width: 80%;
+    height: 25px;
+    font-size: 1.2rem;
+}
+.nameToOpenFile {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.nameToOpenFile p {
+    cursor: pointer;
+}
+.highLighter {
+    height: 81vh;
+}
