@@ -13,7 +13,7 @@ export const File: React.FC<FileProps> = ({ files }) => {
 
   useEffect(() => {
     setIncomingFile(files.find((file) => file.id === id));
-  }, [id]);
+  }, [files, id]);
 
   return (
     <div
